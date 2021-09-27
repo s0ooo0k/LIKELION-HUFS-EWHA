@@ -27,4 +27,4 @@ jobs:
           DISCORD_AVATAR: https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjVfMTU0/MDAxNTk1NjAzNjM3NTQ3.KoBLyZAITfn-ETozRXAdHtdXBsh5b07j77tmrFT9mGAg.gyiELNN6ajSs4WTs9o848gtZVUSD0jjQHAFfXFr6kFMg.JPEG.parkamsterdam/IMG_0430.JPG?type=w800
         uses: Ilshidur/action-discord@master
         with:
-          args: '{{RUNNER_NAME}} : Github Actions Test ^~^'
+          args: '{{GITHUB_ACTOR}} : 테스트 x2'
